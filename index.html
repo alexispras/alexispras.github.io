@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Apps for Drivers by Aleksey Mikheev</title>
+    <title>Car Radar & Apps for Drivers</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             color: #222222;
-            line-height: 1.5;
+            line-height: 1.6;
             margin: 0;
             padding: 20px;
             background-color: #f9f9f9;
@@ -25,23 +25,33 @@
             font-size: 32px;
             margin-top: 0;
             margin-bottom: 8px;
+            color: #1a1a1a;
         }
         .subtitle {
             color: #666;
             margin-bottom: 32px;
+            font-size: 18px;
         }
         .app-card {
-            border: 1px solid #eaeaea;
+            border: 2px solid #009c9c;
             padding: 24px;
-            margin-bottom: 24px;
+            margin-bottom: 32px;
             border-radius: 8px;
+            background-color: #fafafa;
         }
         .app-card h2 {
             margin-top: 0;
             margin-bottom: 12px;
             color: #333;
+            font-size: 28px;
+        }
+        .app-card h3 {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 4px;
         }
         .app-card p {
+            margin-top: 0;
             margin-bottom: 16px;
         }
         .links a {
@@ -50,9 +60,13 @@
             color: #009c9c;
             text-decoration: none;
             font-weight: bold;
+            padding: 8px 16px;
+            border: 1px solid #009c9c;
+            border-radius: 4px;
         }
         .links a:hover {
-            text-decoration: underline;
+            background-color: #009c9c;
+            color: #fff;
         }
         .footer {
             margin-top: 40px;
@@ -65,29 +79,35 @@
 </head>
 <body>
 <div class="container">
-    <h1>Apps for Drivers</h1>
-    <p class="subtitle">Useful Android applications designed for drivers, created by Aleksey Mikheev.</p>
+    <h1>Car Radar</h1>
+    <p class="subtitle">Official homepage for Car Radar and other driving applications created by Aleksey Mikheev.</p>
 
-    <!-- Car Notes App -->
-    <div class="app-card">
-        <h2>Car Notes</h2>
-        <p>Tracks your car maintenance with reminders. Keep track of your expenses, and vehicle history seamlessly with Google Drive sync.</p>
-        <div class="links">
-            <a href="car_notes_app_privacy_policy.html">Privacy Policy</a>
-        </div>
-    </div>
-
-    <!-- Car Radar App -->
+    <!-- Car Radar App (Primary) -->
     <div class="app-card">
         <h2>Car Radar</h2>
-        <p>Automatically saves parking position. Helps find your car using map and radar.</p>
+        <h3>App Purpose:</h3>
+        <p>Car Radar is a comprehensive driving assistant application that automatically saves your car's parking position. It helps users easily navigate back to their parked vehicle using GPS tracking, interactive maps, and a built-in radar interface.</p>
+
+        <h3>Google Account Integration:</h3>
+        <p>Car Radar requests access to Google Authentication (OAuth) to allow users to securely log in and sync their parking history. This ensures that users do not lose their saved parking locations if they change their device or reinstall the application.</p>
+
         <div class="links">
             <a href="car_radar_app_privacy_policy.html">Privacy Policy</a>
         </div>
     </div>
 
+    <!-- Car Notes App -->
+    <div class="app-card" style="border-color: #eaeaea; background-color: #fff;">
+        <h2>Car Notes</h2>
+        <h3>App Purpose:</h3>
+        <p>Tracks your car maintenance with reminders. Keep track of your expenses, and vehicle history seamlessly with Google Drive sync to ensure your data is securely backed up.</p>
+        <div class="links">
+            <a href="car_notes_app_privacy_policy.html">Privacy Policy</a>
+        </div>
+    </div>
+
     <div class="footer">
-        <p>Contact: <a href="mailto:alexispras@gmail.com" style="color: #009c9c;">alexispras@gmail.com</a></p>
+        <p>Contact Support: <a href="mailto:alexispras@gmail.com" style="color: #009c9c;">alexispras@gmail.com</a></p>
         <p>&copy; 2026 Aleksey Mikheev. All rights reserved.</p>
     </div>
 </div>
