@@ -3,58 +3,55 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Apps for Drivers by Aleksey Mikheev</title>
+    <title>Car Radar - Official Application Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             color: #222222;
-            line-height: 1.5;
+            line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f4f7f6;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 700px;
+            margin: 40px auto;
             background-color: #ffffff;
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
         h1 {
-            font-size: 32px;
+            font-size: 36px;
+            color: #1a1a1a;
             margin-top: 0;
-            margin-bottom: 8px;
+            border-bottom: 2px solid #009c9c;
+            padding-bottom: 10px;
         }
-        .subtitle {
-            color: #666;
-            margin-bottom: 32px;
-        }
-        .app-card {
-            border: 1px solid #eaeaea;
-            padding: 24px;
-            margin-bottom: 24px;
-            border-radius: 8px;
-        }
-        .app-card h2 {
-            margin-top: 0;
-            margin-bottom: 12px;
+        h2 {
+            font-size: 20px;
             color: #333;
+            margin-top: 30px;
+            margin-bottom: 10px;
         }
-        .app-card p {
+        p {
+            margin-top: 0;
             margin-bottom: 16px;
         }
-        .links a {
+        .policy-link {
             display: inline-block;
-            margin-right: 16px;
-            color: #009c9c;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #009c9c;
+            color: #ffffff;
             text-decoration: none;
             font-weight: bold;
+            border-radius: 5px;
         }
-        .links a:hover {
-            text-decoration: underline;
+        .policy-link:hover {
+            background-color: #007a7a;
         }
-        .footer {
+        .contact {
             margin-top: 40px;
             font-size: 14px;
             color: #777;
@@ -65,30 +62,22 @@
 </head>
 <body>
 <div class="container">
-    <h1>Apps for Drivers</h1>
-    <p class="subtitle">Useful Android applications designed for drivers, created by Aleksey Mikheev.</p>
+    <h1>Car Radar</h1>
 
-    <!-- Car Notes App -->
-    <div class="app-card">
-        <h2>Car Notes</h2>
-        <p>Tracks your car maintenance with reminders. Keep track of your expenses, and vehicle history seamlessly with Google Drive sync.</p>
-        <div class="links">
-            <a href="car_notes_app_privacy_policy.html">Privacy Policy</a>
-        </div>
-    </div>
+    <h2>Application Purpose</h2>
+    <p><strong>Car Radar</strong> is a mobile application designed specifically for drivers. Its primary purpose is to automatically save your car's parking position and help you find your vehicle easily using an interactive map and a built-in radar interface.</p>
 
-    <!-- Car Radar App -->
-    <div class="app-card">
-        <h2>Car Radar</h2>
-        <p>Automatically saves parking position. Helps find your car using map and radar.</p>
-        <div class="links">
-            <a href="car_radar_app_privacy_policy.html">Privacy Policy</a>
-        </div>
-    </div>
+    <h2>Why We Use Google OAuth (Google API Services)</h2>
+    <p>Car Radar requests access to your Google Account (OAuth) exclusively to securely sync and backup your saved parking locations to your personal Google Drive. This ensures that you never lose your parking history when changing devices.</p>
 
-    <div class="footer">
-        <p>Contact: <a href="mailto:alexispras@gmail.com" style="color: #009c9c;">alexispras@gmail.com</a></p>
-        <p>&copy; 2026 Aleksey Mikheev. All rights reserved.</p>
+    <h2>Compliance & Terms of Service</h2>
+    <p>The Car Radar application strictly complies with the Google APIs Terms of Service. <strong>The application does not use Google APIs to generate or manipulate images, and it strictly prohibits and does not facilitate any AI-generated Non-Consensual Intimate Imagery (AI NCII).</strong></p>
+
+    <a href="car_radar_app_privacy_policy.html" class="policy-link">Read our Privacy Policy</a>
+
+    <div class="contact">
+        <p>Developer: Aleksey Mikheev</p>
+        <p>Contact Support: <a href="mailto:alexispras@gmail.com" style="color: #009c9c;">alexispras@gmail.com</a></p>
     </div>
 </div>
 </body>
